@@ -59,7 +59,7 @@ variable "feature" {
 }
 
 variable "customer" {
-  description = "Name of the customer the resource is providing services for. For multicustomer resources where a resource is being used by multiple deployments in a foundation, use platform. Otherwise for resources that are being use internally in Smarsh, use internal."
+  description = "Name of the customer the resource is providing services for. For multicustomer resources where a resource is being used by multiple deployments in a foundation, use platform. Otherwise for resources that are being use internally in test, use internal."
   type        = string
   default     = "test"
   validation {
