@@ -330,7 +330,7 @@ variable "server_side_encryption_configuration" {
 variable "logging_configuration" {
   type = map(string)
   default = {
-    target_bucket = "smarsh-1cp-security"
+    target_bucket = "test-1cp-security"
     target_prefix = "logs/s3/"
   }
 }
